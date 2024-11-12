@@ -1,0 +1,11 @@
+# Archivo configuracion_local.sh
+configuracion_local.sh
+
+# Directorio archivos_privados y su contenido
+archivos_privados
+
+# Archivos Photoshop
+*.psd
+
+# Archivos Gimp
+*.xcf
