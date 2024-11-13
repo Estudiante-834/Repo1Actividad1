@@ -4,20 +4,25 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" type="image/x-icon" href="img/GitHub-logo.png">
+
         <title>AD-1 Tarea en equipo Control de versiones con GIT</title>
     </head>
 
     <body>
-        <h1>AD-1 Entornos de Desarrollo</h1>
+        <header>
+            <h1>AD-1 Entornos de Desarrollo</h1>
+        </header>
 
-        <p>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </p>
+        <div class="container">
+            <input id="input-mssg" type="text" placeholder="Deja un mensaje">
+            <button id="add-button">Añadir Mensaje</button>
+            <button id="reset-button">Borrar Mensajes</button>
+            <ul id="mssg-list"></ul>
+        </div>
+
+        <script src="js/script.js"></script>
     </body>
 </html>

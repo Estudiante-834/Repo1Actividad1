@@ -2,7 +2,7 @@
 configuracion_local.sh
 
 # Directorio archivos_privados y su contenido
-archivos_privados
+archivos_privados/
 
 # Archivos Photoshop
 *.psd

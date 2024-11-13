@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana;
+    background-color: #e1b382;
+}
+
+header {
+    text-align: center;
+    color: #ffffff;
+    padding: 25px;
+}
+
+.container {
+    text-align: center;
+    align-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input:placeholder-shown {
+    font-style: italic;
+}
