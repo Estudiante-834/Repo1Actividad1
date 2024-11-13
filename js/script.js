@@ -19,3 +19,8 @@ let resetButton = document.getElementById("reset-button");
 
 addButton.addEventListener("click", addMessage);
 resetButton.addEventListener("click", resetMessage);
+inputMessage.addEventListener("keydown", function(event) {
+    if (event.key == "Enter") {
+        addMessage();
+    }
+})
