@@ -1,0 +1,1 @@
+Sin push a origin desde rama, solo a main tras merge.
