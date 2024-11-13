@@ -24,5 +24,8 @@ ul {
 
 input:placeholder-shown {
     font-style: italic;
-    outline: none;
+}
+
+input {
+    outline: 0;
 }

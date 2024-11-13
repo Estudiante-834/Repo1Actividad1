@@ -1,5 +1,9 @@
+const inputMessage = document.getElementById("input-mssg");
+const addButton = document.getElementById("add-button");
+const resetButton = document.getElementById("reset-button");
+const messageList = document.getElementById("mssg-list");
+
 function addMessage() {
-    let messageList = document.getElementById("mssg-list");
     let newMessage = document.createElement("li")
 
     newMessage.innerText = inputMessage.value;
@@ -8,14 +12,8 @@ function addMessage() {
 }
 
 function resetMessage() {
-    let messageList = document.getElementById("mssg-list");
-    
     messageList.innerHTML = "";
 }
-
-let inputMessage = document.getElementById("input-mssg");
-let addButton = document.getElementById("add-button");
-let resetButton = document.getElementById("reset-button");
 
 addButton.addEventListener("click", addMessage);
 resetButton.addEventListener("click", resetMessage);
